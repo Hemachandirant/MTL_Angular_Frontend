@@ -1,0 +1,49 @@
+<!-- <p>signin works!</p> -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6 form-container">
+      <form>
+        <div class="legalimage">
+          <img
+            src="https://github.com/Sriram-code/UI_Images/blob/main/MicrosoftTeams-image%20(35).png?raw=true"
+            alt="..."
+          />
+        </div>
+        <div class="para">
+          <h2>Legal Research assistant</h2>
+          <h5>
+            Website Application<img
+              src="https://github.com/Sriram-code/UI_Images/blob/main/MicrosoftTeams-image%20(29).png?raw=true"
+              height="50px"
+            /><br />
+          </h5>
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="username"
+            [(ngModel)]="email"
+          />
+        </div>
+        <div class="mb-4">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="password"
+            [(ngModel)]="password"
+          /><br /><br />
+          <a href="#">
+            <h6><u>Forgot password?</u></h6>
+          </a>
+        </div>
+        <button type="submit" class="btn btn-primary buton" (click)="signIn()">
+          Login
+        </button>
+      </form>
+    </div>
+    <div class="col-6 image"></div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+.container-margin{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+}
+/* .foter{
+  background-color: rgb(0, 0, 0) !important;
+  color: white !important;
+} */
+
+/* .foot-width{
+  width: 101vw;
+  background-color: rgb(0, 0, 0) !important;
+  color: white !important;
+} */
+
+/* .foot-width i{
+  color: white !important;
+}
+
+span{
+  color: white !important;
+} */
+
+.mar{
+  margin-top: 2px !important;
+}
+.backgroudc{
+  /* background-color: rgb(224, 224, 224); */
+  background: rgb(29,29,70);
+background: linear-gradient(90deg, rgba(29,29,70,1) 41%, rgba(40,50,137,1) 100%);
+  height: 6.5rem;
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+.centered{
+  text-align: center !important;
+}
+
+
